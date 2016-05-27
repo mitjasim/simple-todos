@@ -1,17 +1,6 @@
 /* CSS declarations go here */
-body {
-  font-family: sans-serif;
-  padding: 0;
-  margin: 0;
 
-  font-size: 14px;
-}
 
-.container {
-  margin: 0 auto;
-  min-height: 100%;
-  background: white;
-}
 
 header {
   background: #d2edf4;
@@ -23,43 +12,12 @@ header {
   display: block;
 }
 
-h1 {
-  font-size: 1.5em;
-  margin: 0;
-  margin-bottom: 10px;
-  display: inline-block;
-  margin-right: 1em;
-}
 
 h1 span {
   font-weight: normal;
 }
 
-form {
-  margin-top: 10px;
-  margin-bottom: -10px;
-  position: relative;
-}
 
-.new-task input {
-  box-sizing: border-box;
-  padding: 10px 0;
-  background: transparent;
-  border: none;
-  width: 100%;
-  padding-right: 80px;
-  font-size: 1em;
-}
-
-.new-task input:focus{
-  outline: 0;
-}
-
-ul {
-  margin: 0;
-  padding: 0;
-  background: white;
-}
 
 .delete {
   float: right;
@@ -73,8 +31,6 @@ ul {
 li {
   position: relative;
   list-style: none;
-  padding: 15px;
-  border-bottom: #eee solid 1px;
 }
 
 li .text {
@@ -103,16 +59,10 @@ header .hide-completed {
 }
 
 @media (max-width: 600px) {
-  li {
-    padding: 12px 15px;
-  }
 
   .search {
     width: 150px;
     clear: both;
   }
 
-  .new-task input {
-    padding-bottom: 5px;
-  }
 }
